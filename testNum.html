@@ -1,0 +1,66 @@
+<!--
+### Converts Numbers (Digits) to Azerbaijani (Azeri, Turkish) words
+### Created_by_H_Huseynov
+### aka Spatial
+### aka Huserman
+### Copyright (c) 2011 [H. Huseynov]
+### Can be used under MIT LICENSE
+-->
+<!doctype html>
+<html> 
+	<head>		
+		<title>Numbers to Azerbaijan Words Converter</title> 
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Convert numbers to words in Azerbaijan (Turkish) language; Rəqəmləri Azərbaycan (Türk) dilində Sözə Çevirən" />
+		<meta name="keywords" content="converter converts numbers digitis words text to speech Azəri sözlər rəqəm rəqəmlər nömrələr söz sözlə cümlə konvert çevirmək yazmaq səsləndirmə həriflər" />
+		<meta name="author" content="H. Huseynov" />
+		<script type="text/javascript" src="numtoword.js"></script>
+		<style type="text/css">
+			body{
+				background-color: #F5F5F5;
+			}
+			#labelid{
+				color: darkseagreen;
+				font-family: cursive;
+			   font-style: normal;
+			   font-size: x-small;
+			}
+			.d1{
+				position: absolute;
+				margin-left: 400px;
+			}
+			#lbtxt{
+				color: #03C03C;
+				font-family: cursive;
+				font-style: normal;
+				font-size: x-large;
+			}
+			#isText{
+				border: 1px solid lightgray;
+				font-family: cursive;
+				font-size: large;
+				color: green;
+				text-align: right;
+				width: 180px;
+			}
+			.btns{
+				font-family: cursive;
+				font-size: large;
+			} 
+		</style>
+	</head> 
+	
+	<body> 
+		<input type="text" id='isText'/> 
+		<input type="button" value="numTOword" id="buttonid" class="btns" onclick="toWord()"/>
+		<input type="button" value="Erase" id="eraseId" class="btns" onclick="empt()"/>
+		<br><label id="labelid"><b></b>max 1,000,000</label>
+		<div class="d1">
+		<label id='lbtxt'></label>
+		</div>
+		<div class="textFly">
+			<h2 id="fly">Welcome!</h2>
+		</div>
+		<script type="text/javascript" src="stringfly.js"></script>
+	</body> 
+</html>
