@@ -1,2 +1,2 @@
 # JS-Helpers
-Some helpful Javascript packages
+Some helpful Javascript codes
