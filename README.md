@@ -1,2 +1,2 @@
 # JS-Number-To-Word
-Number to Word Converter for Azerbaijani (or Turkish) language
+Number to Words Converter for Azerbaijani (or Turkish) language
