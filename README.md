@@ -1,2 +1,2 @@
-# JS-Helpers
-Some helpful Javascript codes
+# JS-Number-To-Word
+Number to Word Converter for Azerbaijani (or Turkish) language
